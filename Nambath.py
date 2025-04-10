@@ -7,7 +7,8 @@ ip_address = socket.gethostbyname(hostname)
 
 @app.route('/')
 def hello_cloud():
-  return 'Hello Nambath Cloud !'
+  return 'Welcome to Nambath Finial Test API Server'
+
   
 @app.route('/host')
 def host_name():
